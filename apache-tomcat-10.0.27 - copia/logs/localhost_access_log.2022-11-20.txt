@@ -1,0 +1,17 @@
+127.0.0.1 - admin [20/Nov/2022:21:28:22 -0500] "PUT /manager/text/deploy?path=%2Fwebapp-headers&update=true HTTP/1.1" 200 118
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:28:26 -0500] "GET /webapp-headers HTTP/1.1" 404 702
+127.0.0.1 - admin [20/Nov/2022:21:29:10 -0500] "PUT /manager/text/deploy?path=%2Fwebapp-headers&update=true HTTP/1.1" 200 85
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:29:15 -0500] "GET /webapp-headers HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:29:15 -0500] "GET /webapp-headers/ HTTP/1.1" 200 225
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:29:15 -0500] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:29:23 -0500] "GET /webapp-headers/productos.xls HTTP/1.1" 500 1442
+127.0.0.1 - admin [20/Nov/2022:21:30:11 -0500] "PUT /manager/text/deploy?path=%2Fwebapp-headers&update=true HTTP/1.1" 200 85
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:30:12 -0500] "GET /webapp-headers/productos.xls HTTP/1.1" 500 1450
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:30:14 -0500] "GET /webapp-headers/productos.xls HTTP/1.1" 500 1450
+127.0.0.1 - admin [20/Nov/2022:21:32:29 -0500] "PUT /manager/text/deploy?path=%2Fwebapp-headers&update=true HTTP/1.1" 200 85
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:32:32 -0500] "GET /webapp-headers/productos.xls HTTP/1.1" 200 549
+127.0.0.1 - admin [20/Nov/2022:21:44:22 -0500] "PUT /manager/text/deploy?path=%2Fwebapp-headers&update=true HTTP/1.1" 200 85
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:44:25 -0500] "GET /webapp-headers/productos.xls HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:44:31 -0500] "GET /webapp-headers/productos HTTP/1.1" 404 716
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:44:35 -0500] "GET /webapp-headers/productos.html HTTP/1.1" 200 609
+0:0:0:0:0:0:0:1 - - [20/Nov/2022:21:44:37 -0500] "GET /webapp-headers/productos.xls HTTP/1.1" 200 348

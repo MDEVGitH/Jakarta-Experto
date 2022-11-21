@@ -1,0 +1,1366 @@
+15-Nov-2022 09:14:12.562 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-Nov-2022 09:14:12.562 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-Nov-2022 09:14:12.566 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@332a7fce')
+15-Nov-2022 14:24:56.764 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-Nov-2022 14:24:56.764 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-Nov-2022 14:24:56.768 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@32fe9d0a')
+15-Nov-2022 14:49:26.715 SEVERE [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet [jsp] lanzó una excepción
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [250] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+Ha tenido lugar un error en la línea: [250] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [267] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [268] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:95)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 14:49:26.715 SEVERE [http-nio-8080-exec-48] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [servlet.form.FormServlet] en el contexto con ruta [/webapp-form] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [250] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+Ha tenido lugar un error en la línea: [250] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [267] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [268] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [250] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+Ha tenido lugar un error en la línea: [250] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete Block
+
+Ha tenido lugar un error en la línea: [267] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error on token "}", delete this token
+
+Ha tenido lugar un error en la línea: [268] en el fichero java generado: [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\work\Catalina\localhost\webapp-form\org\apache\jsp\index_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:95)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 15:15:17.890 SEVERE [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet [jsp] lanzó una excepción
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+34:                 <input type="text" name="username" id="username">
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username"){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username"){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [50] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+47:                 <input type="password" name="password" id = "password">
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password"){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password"){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [61] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+58:                 <input type="text" name="email" id="email">
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email"){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email"){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [80] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+77:                 </select>
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais"){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais"){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [97] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+94:                 </select>
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes"){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes"){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [117] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+114:                 <label>Moderador</label>
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles"){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles"){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [142] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+139:                 <label>Frances</label>
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma"){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma"){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 15:15:17.892 SEVERE [http-nio-8080-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [servlet.form.FormServlet] en el contexto con ruta [/webapp-form] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+34:                 <input type="text" name="username" id="username">
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username"){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username"){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [50] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+47:                 <input type="password" name="password" id = "password">
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password"){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password"){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [61] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+58:                 <input type="text" name="email" id="email">
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email"){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email"){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [80] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+77:                 </select>
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais"){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais"){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [97] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+94:                 </select>
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes"){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes"){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [117] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+114:                 <label>Moderador</label>
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles"){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles"){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [142] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+139:                 <label>Frances</label>
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma"){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma"){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [37] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+34:                 <input type="text" name="username" id="username">
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username"){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username"){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [50] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+47:                 <input type="password" name="password" id = "password">
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password"){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password"){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [61] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+58:                 <input type="text" name="email" id="email">
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email"){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email"){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [80] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+77:                 </select>
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais"){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais"){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [97] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+94:                 </select>
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes"){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes"){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [117] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+114:                 <label>Moderador</label>
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles"){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles"){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [142] en el archivo jsp: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+139:                 <label>Frances</label>
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma"){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma"){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 15:16:23.015 SEVERE [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet [jsp] lanzó una excepción
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username")){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password")){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email")){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais")){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes")){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles")){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma")){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 15:16:23.016 SEVERE [http-nio-8080-exec-61] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [servlet.form.FormServlet] en el contexto con ruta [/webapp-form] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username")){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password")){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email")){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais")){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes")){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles")){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma")){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username")){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password")){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email")){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais")){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes")){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles")){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma")){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 15:16:31.197 SEVERE [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet [jsp] lanzó una excepción
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username")){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password")){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email")){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais")){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes")){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles")){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma")){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+15-Nov-2022 15:16:31.197 SEVERE [http-nio-8080-exec-63] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [servlet.form.FormServlet] en el contexto con ruta [/webapp-form] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username")){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password")){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email")){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais")){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes")){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles")){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma")){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:] con causa raíz
+	org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [38] en el archivo jsp: [/index.jsp]
+username cannot be resolved to a variable
+35:             </div>
+36:             <%
+37:             if(errores != null && errores.containsKey("username")){
+38:                 out.println("<small style='color: red;'> " + errores.get(username) +"</small>");
+39:             }
+40:             %>
+41: 
+
+
+Ha tenido lugar un error en la línea: [51] en el archivo jsp: [/index.jsp]
+password cannot be resolved to a variable
+48:             </div>
+49:             <%
+50:                 if(errores != null && errores.containsKey("password")){
+51:                     out.println("<small style='color: red;'> " + errores.get(password) +"</small>");
+52:                 }
+53:             %>
+54:         </div>
+
+
+Ha tenido lugar un error en la línea: [62] en el archivo jsp: [/index.jsp]
+email cannot be resolved to a variable
+59:             </div>
+60:             <%
+61:                 if(errores != null && errores.containsKey("email")){
+62:                     out.println("<small style='color: red;'> " + errores.get(email) +"</small>");
+63:                 }
+64:             %>
+65:         </div>
+
+
+Ha tenido lugar un error en la línea: [81] en el archivo jsp: [/index.jsp]
+pais cannot be resolved to a variable
+78:             </div>
+79:             <%
+80:                 if(errores != null && errores.containsKey("pais")){
+81:                     out.println("<small style='color: red;'> " + errores.get(pais) +"</small>");
+82:                 }
+83:             %>
+84:         </div>
+
+
+Ha tenido lugar un error en la línea: [98] en el archivo jsp: [/index.jsp]
+lenguajes cannot be resolved to a variable
+95:             </div>
+96:             <%
+97:                 if(errores != null && errores.containsKey("lenguajes")){
+98:                     out.println("<small style='color: red;'> " + errores.get(lenguajes) +"</small>");
+99:                 }
+100:             %>
+101:         </div>
+
+
+Ha tenido lugar un error en la línea: [118] en el archivo jsp: [/index.jsp]
+roles cannot be resolved to a variable
+115:             </div>
+116:             <%
+117:                 if(errores != null && errores.containsKey("roles")){
+118:                     out.println("<small style='color: red;'> " + errores.get(roles) +"</small>");
+119:                 }
+120:             %>
+121:         </div>
+
+
+Ha tenido lugar un error en la línea: [143] en el archivo jsp: [/index.jsp]
+idioma cannot be resolved to a variable
+140:             </div>
+141:             <%
+142:                 if(errores != null && errores.containsKey("idioma")){
+143:                     out.println("<small style='color: red;'> " + errores.get(idioma) +"</small>");
+144:                 }
+145:             %>
+146:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at servlet.form.FormServlet.doPost(FormServlet.java:93)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:709)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)

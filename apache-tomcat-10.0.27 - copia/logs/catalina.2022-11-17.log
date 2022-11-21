@@ -1,0 +1,154 @@
+17-Nov-2022 10:30:41.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+17-Nov-2022 10:30:41.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+17-Nov-2022 10:30:41.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+17-Nov-2022 10:30:41.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+17-Nov-2022 10:30:41.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-Nov-2022 10:30:41.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-Nov-2022 10:30:41.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Usuario\Documents\jdk-19.0.1
+17-Nov-2022 10:30:41.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.1+10-21
+17-Nov-2022 10:30:41.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-Nov-2022 10:30:41.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:30:41.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:30:41.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Nov-2022 10:30:41.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-Nov-2022 10:30:41.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-Nov-2022 10:30:41.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Nov-2022 10:30:41.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Nov-2022 10:30:41.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\conf\logging.properties
+17-Nov-2022 10:30:41.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Nov-2022 10:30:41.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-Nov-2022 10:30:41.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Nov-2022 10:30:41.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+17-Nov-2022 10:30:41.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:30:41.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:30:41.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\temp
+17-Nov-2022 10:30:41.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+17-Nov-2022 10:30:41.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+17-Nov-2022 10:30:41.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+17-Nov-2022 10:30:42.314 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-Nov-2022 10:30:42.346 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Fallo al iniciar el componente [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1055)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1192)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1205)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:583)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1052)
+		... 11 more
+17-Nov-2022 10:30:42.348 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1210] milliseconds
+17-Nov-2022 10:30:42.529 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-Nov-2022 10:30:42.531 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+17-Nov-2022 10:30:42.581 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-1.0-SNAPSHOT.war] de la aplicación web
+17-Nov-2022 10:30:43.224 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [114] milliseconds.
+17-Nov-2022 10:30:43.256 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-1.0-SNAPSHOT.war] has finished in [674] ms
+17-Nov-2022 10:30:43.323 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-form.war] de la aplicación web
+17-Nov-2022 10:30:43.438 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-form.war] has finished in [114] ms
+17-Nov-2022 10:30:43.476 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp.war] de la aplicación web
+17-Nov-2022 10:30:43.563 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp.war] has finished in [87] ms
+17-Nov-2022 10:30:43.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+17-Nov-2022 10:30:43.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\docs] has finished in [63] ms
+17-Nov-2022 10:30:43.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+17-Nov-2022 10:30:45.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\examples] has finished in [1.928] ms
+17-Nov-2022 10:30:45.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+17-Nov-2022 10:30:45.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\host-manager] has finished in [113] ms
+17-Nov-2022 10:30:45.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+17-Nov-2022 10:30:45.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\manager] has finished in [126] ms
+17-Nov-2022 10:30:45.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+17-Nov-2022 10:30:45.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\ROOT] has finished in [61] ms
+17-Nov-2022 10:30:45.917 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3563] milliseconds
+17-Nov-2022 10:32:28.351 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Nov-2022 10:32:28.352 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+17-Nov-2022 10:32:28.402 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Nov-2022 10:32:28.404 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Nov-2022 10:32:32.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+17-Nov-2022 10:32:32.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+17-Nov-2022 10:32:32.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+17-Nov-2022 10:32:32.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+17-Nov-2022 10:32:32.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+17-Nov-2022 10:32:32.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+17-Nov-2022 10:32:32.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Users\Usuario\Documents\jdk-19.0.1
+17-Nov-2022 10:32:32.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       19.0.1+10-21
+17-Nov-2022 10:32:32.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+17-Nov-2022 10:32:32.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:32:32.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:32:32.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Nov-2022 10:32:32.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+17-Nov-2022 10:32:32.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+17-Nov-2022 10:32:32.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Nov-2022 10:32:32.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Nov-2022 10:32:32.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\conf\logging.properties
+17-Nov-2022 10:32:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Nov-2022 10:32:32.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+17-Nov-2022 10:32:32.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Nov-2022 10:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+17-Nov-2022 10:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:32:32.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27
+17-Nov-2022 10:32:32.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\temp
+17-Nov-2022 10:32:32.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+17-Nov-2022 10:32:32.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+17-Nov-2022 10:32:32.306 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+17-Nov-2022 10:32:32.771 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+17-Nov-2022 10:32:32.822 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [914] milliseconds
+17-Nov-2022 10:32:32.904 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-Nov-2022 10:32:32.906 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+17-Nov-2022 10:32:32.938 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-1.0-SNAPSHOT.war] de la aplicación web
+17-Nov-2022 10:32:33.442 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-1.0-SNAPSHOT.war] has finished in [501] ms
+17-Nov-2022 10:32:33.445 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-form.war] de la aplicación web
+17-Nov-2022 10:32:33.622 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-form.war] has finished in [176] ms
+17-Nov-2022 10:32:33.629 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp.war] de la aplicación web
+17-Nov-2022 10:32:33.734 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp.war] has finished in [105] ms
+17-Nov-2022 10:32:33.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+17-Nov-2022 10:32:33.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\docs] has finished in [75] ms
+17-Nov-2022 10:32:33.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+17-Nov-2022 10:32:34.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\examples] has finished in [940] ms
+17-Nov-2022 10:32:34.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+17-Nov-2022 10:32:34.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\host-manager] has finished in [78] ms
+17-Nov-2022 10:32:34.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+17-Nov-2022 10:32:34.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\manager] has finished in [64] ms
+17-Nov-2022 10:32:34.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+17-Nov-2022 10:32:34.946 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\ROOT] has finished in [48] ms
+17-Nov-2022 10:32:34.951 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Nov-2022 10:32:35.081 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2254] milliseconds
+17-Nov-2022 10:32:44.968 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-form]
+17-Nov-2022 10:32:45.065 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-form.war] de la aplicación web
+17-Nov-2022 10:32:45.150 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-form.war] has finished in [85] ms
+17-Nov-2022 11:00:02.786 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:00:02.975 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [188] ms
+17-Nov-2022 11:03:28.832 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-headers]
+17-Nov-2022 11:03:28.925 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:03:29.057 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [132] ms
+17-Nov-2022 11:05:25.443 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-headers]
+17-Nov-2022 11:05:25.500 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:05:25.602 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [101] ms
+17-Nov-2022 11:07:43.156 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-headers]
+17-Nov-2022 11:07:43.222 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:07:43.320 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [98] ms
+17-Nov-2022 11:25:39.322 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-headers]
+17-Nov-2022 11:25:39.454 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:25:39.672 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [218] ms
+17-Nov-2022 11:28:34.071 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-headers]
+17-Nov-2022 11:28:34.127 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:28:34.212 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [85] ms
+17-Nov-2022 11:33:15.614 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-headers]
+17-Nov-2022 11:33:15.684 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] de la aplicación web
+17-Nov-2022 11:33:15.821 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Usuario\Desktop\jakarta_Experto\apache-tomcat-10.0.27\webapps\webapp-headers.war] has finished in [137] ms
